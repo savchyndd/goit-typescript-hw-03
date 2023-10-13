@@ -23,7 +23,7 @@ class Person {
 abstract class House {
   protected door: boolean;
   protected key: Key;
-  protected tenants: Person[] = [];
+  private tenants: Person[] = [];
 
   constructor(key: Key) {
     this.key = key;
